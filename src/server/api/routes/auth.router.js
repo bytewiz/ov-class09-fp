@@ -6,7 +6,7 @@ const router = express.Router({ mergeParams: true });
 
 // auth controller
 const authController = require("../controllers/auth.controller");
-
+console.log("TEST CHANGES");
 // ENDPOINT: /api/auth/login/ :POST
 router.post("/login", (req, res, next) => {
   authController
